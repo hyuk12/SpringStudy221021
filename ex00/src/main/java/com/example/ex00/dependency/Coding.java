@@ -11,8 +11,8 @@ import lombok.RequiredArgsConstructor;
 
 @Component
 @Getter
-//@AllArgsConstructor
-@RequiredArgsConstructor
+//@AllArgsConstructor 모든 필드의 생성자가 초기화된다
+@RequiredArgsConstructor // final 을 붙여주거나 NonNull이라는 어노테이션이 붙으면 사용가능 필드를 선택해서 생성자 초기화
 public class Coding {
 	
 //	필드 주입

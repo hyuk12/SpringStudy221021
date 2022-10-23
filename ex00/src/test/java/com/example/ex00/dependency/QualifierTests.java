@@ -8,9 +8,6 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import com.example.ex00.dependency.qualifier.Computer;
-import com.example.ex00.dependency.qualifier.Outback;
-import com.example.ex00.dependency.qualifier.Restaurant;
-import com.example.ex00.dependency.qualifier.Vips;
 
 import lombok.extern.log4j.Log4j;
 
